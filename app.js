@@ -28,7 +28,7 @@ function singSong(e) {
     friendName.innerText = friend;
     mainTextDiv.appendChild(friendName);
 
-    // loop for creating text of the song for each friend and creating dom element for each line
+    // loop for creating text of the song for each friend and creating dom element for each line. in this case loop creates 10 lines of codes.
     for (let j = 10; j >= 1; j--) {
       songText = document.createElement("p");
       songText.className = "card-text";
